@@ -1,0 +1,186 @@
+body{
+    background-color: #c5a880;
+    color: #c5a880;
+    font-family: "Montserrat";
+    
+}
+.Bakio-heading{
+    font-style: italic;
+    
+    line-height: 1.5;
+    color: whitesmoke;
+
+}
+
+
+.description{
+    color: #c5a880;
+    font-size: 2.5rem;
+}
+h1{
+    font-family: Montserrat-Black;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  h3{
+    font-family: "Montserrat-bold";
+  }
+
+  
+  h2{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+  
+  }
+  p{
+    color: #8f8f8f;
+  }
+
+#home-section{
+    background: url(../images/finaltitle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+    width: 100%;
+    min-height: 420px;
+    /* padding-top: 50px; */
+}
+
+#home-section .dark-overlay{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 420px; */
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.4)
+    }
+
+/* #home-section .home-inner{
+    padding-top: 150px;
+ }   */
+
+/* navbar */
+.navbar-light .navbar-brand {
+  color: #fff;
+}
+.nav-item{
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+    padding: 0 18px;
+  }
+  .nav-link{
+    text-decoration-color: whitesmoke;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+  /* nav .navbar-nav  li a{
+    color: white !important;
+    font-family: sans-serif;
+    } */
+
+/*pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* testimonial section */
+#testimonials{
+
+    text-align: center;
+    background-color:#c5a880;
+    color: #fff;
+
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+
+  .testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+/* cta */
+#cta{
+    background-color: #532e1c;
+    color: #fff;
+    padding: 4% 15%;
+    text-align: center;
+  
+  
+  }
+  .cta-heading{
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  /* download button */
+.download-button{
+    margin: 5% 3% 5% 0%;
+  }
+
+ /* footer */
+ footer{
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .social-icon{
+    padding: 20px 10px;
+    }
+
+
+    @media (max-width: 1028px) {
+        #home-section{
+          text-align: center;
+        }
+        .searchb{
+          text-align: left;
+          width: 200px;
+        }
+    }
+
+    /* product.html */
+
+.bakio-brand{
+  color: #fff;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.searchb{
+  margin-top: 10px;
+  width: 700px;
+  text-align: center;
+}
+
+/* browsing */
+.cakeimages{
+  height: 300px;
+  width: 255px;
+}
+
+.product-pricing-column{
+  padding: 3% 2%;
+}
+
+#browse_cakes {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#browse_breads{
+  padding-left: 100px;
+  padding-right: 100px;
+}
